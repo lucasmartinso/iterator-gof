@@ -18,7 +18,7 @@ public class Levantamento {
         int quantidade = 0;
         for(Iterator medico = hospital.iterator(); medico.hasNext(); ) {
             quantidade++;
-            medico.hasNext();
+            medico.next();
         }
 
         return quantidade;

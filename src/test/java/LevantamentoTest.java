@@ -22,6 +22,6 @@ public class LevantamentoTest {
                 new Medico("Tetse 2", 000, false, "Anestesista")
         );
 
-        assertEquals(1, Levantamento.contarMedicos(hospital));
+        assertEquals(2, Levantamento.contarMedicos(hospital));
     }
 }
